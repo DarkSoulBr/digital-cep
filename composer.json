@@ -1,0 +1,22 @@
+{
+    "name": "luisr/digital-cep",
+    "description": "Busca de cep online",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Luisr\\DigitalCep\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DarkSoulBr",
+            "email": "luis.ramires@uol.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    }
+}

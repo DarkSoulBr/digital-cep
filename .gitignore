@@ -1,0 +1,37 @@
+# Dependências do Composer
+/vendor/
+composer.lock
+
+# Arquivos do ambiente
+.env
+.env.*.local
+.phpunit.result.cache
+
+# Arquivos de cache
+/.cache/
+/tmp/
+/logs/
+/node_modules/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do IDE
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de pacotes PHP
+*.phar
+
+# Arquivos de logs e relatórios de erros
+*.log
+*.csv
+
+# Diretório de uploads (se for o caso)
+uploads/
+
+# Outros arquivos específicos do projeto
+/public/storage
+/storage/*.key
